@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="scripts.ManageDept"/>
+      <class name="scripts.ManageLocations"/>
+      <class name="scripts.ManageIssues"/>
+      <class name="scripts.Issues"/>
+      <class name="scripts.ManageUser"/>
+      <class name="scripts.ManageLocationSchedule"/>
+      <class name="scripts.pageLoadTime"/>
+      <class name="scripts.ManageSite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

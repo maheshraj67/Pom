@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="softwares/selenium-server-standalone-3.0.1.jar" sourcepath="softwares/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/bhuva/Downloads/android-async-http-1.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/apache-httpcomponents-httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/apache-httpcomponents-httpcore.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="softwares/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="softwares/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="softwares/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="softwares/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="softwares/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-examples-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-excelant-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-ooxml-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-ooxml-schemas-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/poi-scratchpad-3.16-beta1.jar"/>
+	<classpathentry kind="lib" path="softwares/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="softwares/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhuva/Downloads/selenium/chromedriver_win32 (2).zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

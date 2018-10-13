@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample suite]">
+  <test name="Learning jenkins1(failed)">
+    <classes>
+      <class name="scripts.ManageDept">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="AddDept"/>
+          <include name="editDepartment"/>
+        </methods>
+      </class> <!-- scripts.ManageDept -->
+    </classes>
+  </test> <!-- Learning jenkins1(failed) -->
+</suite> <!-- Failed suite [Sample suite] -->

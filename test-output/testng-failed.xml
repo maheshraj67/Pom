@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="scripts.Issues">
+        <methods>
+          <include name="filterIssue"/>
+          <include name="shareIssue"/>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="changeDeptUser"/>
+          <include name="commentIssue"/>
+          <include name="changeDueDate"/>
+          <include name="createWebIssue"/>
+          <include name="changestatus"/>
+          <include name="createIssue"/>
+        </methods>
+      </class> <!-- scripts.Issues -->
+      <class name="scripts.ManageSite">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="addSite"/>
+        </methods>
+      </class> <!-- scripts.ManageSite -->
+      <class name="scripts.ManageLocationSchedule">
+        <methods>
+          <include name="createLocationSchedule"/>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- scripts.ManageLocationSchedule -->
+      <class name="scripts.ManageDept">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="AddDept"/>
+          <include name="editDepartment"/>
+        </methods>
+      </class> <!-- scripts.ManageDept -->
+      <class name="scripts.ManageLocations">
+        <methods>
+          <include name="createLocation"/>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="disablingLocation"/>
+          <include name="editLocation"/>
+          <include name="bulkLocation"/>
+        </methods>
+      </class> <!-- scripts.ManageLocations -->
+      <class name="scripts.ManageUser">
+        <methods>
+          <include name="autosearchAdd"/>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="EditUSer"/>
+          <include name="addDept"/>
+          <include name="AddUser"/>
+          <include name="addBulkUser"/>
+          <include name="bulkUploadClientLevel"/>
+          <include name="editUser"/>
+        </methods>
+      </class> <!-- scripts.ManageUser -->
+      <class name="scripts.ManageIssues">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="createIssues"/>
+        </methods>
+      </class> <!-- scripts.ManageIssues -->
+      <class name="scripts.pageLoadTime">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeApp"/>
+          <include name="pageLoad"/>
+        </methods>
+      </class> <!-- scripts.pageLoadTime -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<suite name="test">
+<test name="test112">
+<classes>
+<class name="scripts.ManageDept"/>
+</classes>
+</test>
+</suite>
